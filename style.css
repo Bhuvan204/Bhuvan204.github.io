@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    color: aliceblue;
+    background-color: black;
+    background-image: url('ret.jpg');
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-style: solid;
+}
+
+.basic{
+    border-style: solid;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.htm{
+    background-color: transparent;
+    border-color: aliceblue;
+    border-style: solid;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+    transition: 1s;
+    padding: 10px;
+}
+
+.htm:hover{
+    width: 100%;
+}
+
+.lan{
+    background-color: transparent;
+    border-color: aliceblue;
+    border-style: solid;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+    transition: 1s;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.lan:hover{
+    width: 100%;
+}
+
+.shortcuts{
+    border-style: solid;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.basa{
+    background-color: transparent;
+    border-color: aliceblue;
+    border-style: solid;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+    transition: 1s;
+    padding: 10px;
+
+}
+
+.basa:hover{
+    width: 100%;
+}
+
+.ad{
+    background-color: transparent;
+    border-color: aliceblue;
+    border-style: solid;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+    transition: 1s;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.ad:hover{
+    width: 100%;
+}
+
+a{
+    text-decoration: underline;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.end{
+    border-style: solid;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .title{
+        font-size: 14px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .basic{
+        border-style: solid;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .htm{
+        background-color: transparent;
+        border-color: aliceblue;
+        border-style: solid;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+        transition: 1s;
+        padding: 5px;
+    }
+    
+    .htm:hover{
+        width: 100%;
+    }
+
+    .lan{
+        background-color: transparent;
+        border-color: aliceblue;
+        border-style: solid;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+        transition: 1s;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+    .lan:hover{
+        width: 100%;
+    }
+
+    .shortcuts{
+        border-style: solid;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .basa{
+        background-color: transparent;
+        border-color: aliceblue;
+        border-style: solid;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+        transition: 1s;
+        padding: 5px;
+
+    }
+    
+    .basa:hover{
+        width: 100%;
+    }
+
+    .ad{
+        background-color: transparent;
+        border-color: aliceblue;
+        border-style: solid;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+        transition: 1s;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+    .ad:hover{
+        width: 100%;
+    }
+
+    .container{
+        background-color: black;
+    }
+
+    .end{
+        font-size: 14px;
+        padding: 0px;
+    }
+}
