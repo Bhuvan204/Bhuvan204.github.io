@@ -96,11 +96,12 @@ body {
     text-align: center;
     background-color: white;
     transition: .5s ease;
+    width: 100%;
 }
 
 .grid-item img {
     height: 300px;
-    width: 300px;
+    width: 250px;
     padding: 20px;
     text-align: center;
 }
